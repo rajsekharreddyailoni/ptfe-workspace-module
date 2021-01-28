@@ -51,7 +51,7 @@ module "appserver" {
 
 module "dataserver" {
   source  = "app.terraform.io/trainingraj/dataserver/azurerm"
-  version = "0.12.0"
+  version = "0.12.1"
 
   name      = var.name
   location  = var.location
